@@ -1,0 +1,21 @@
+body{
+    padding:0px;
+    overflow:scroll;
+    margin:0px;
+}
+
+/* all 3 are scrollbar styling (custom scroll bar)*/
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 195, 255, 0.5); /* Grey handle */
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* No track background */
+}
+@import "tailwindcss"
